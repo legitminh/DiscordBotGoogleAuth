@@ -6,9 +6,6 @@ import os
 from urllib.parse import urlencode
 
 # Supabase configuration
-SUPABASE_SERVICE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtwdm1jZGl5cWZianRhbnV0ZWZiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NDg0NTY1OSwiZXhwIjoyMDYwNDIxNjU5fQ.dGzWZLAU7R3jk7vLQkf9tPi_ipwxFMc3EHKAfBRups8"
-SUPABASE_URL = "https://kpvmcdiyqfbjtanutefb.supabase.co"
-AUTH_SERVER_URL = "https://your-auth-server.com/auth-callback"  # Your server URL
 
 # Initialize Supabase client
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
