@@ -15,3 +15,4 @@ Download from google cloud console
 ## flask_app.py
 run this to start the auth server
 
+## this example is run on localhost but it will be run on a superbase connected server
